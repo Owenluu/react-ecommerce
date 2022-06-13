@@ -1,0 +1,7 @@
+.hero-image {
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+  url('../../assets/ben-white-unsplash.jpg') center/cover no-repeat;
+}
+
+// basically we took the image to the background of the hero. We made custom class called hero-image and then set the image as a background, and and used the linear gradient function 
+// so the image has a layered so the user can still read the words on the hero. In otherwords the rgba function since this would do the job.s
