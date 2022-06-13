@@ -4,4 +4,19 @@
 }
 
 // basically we took the image to the background of the hero. We made custom class called hero-image and then set the image as a background, and and used the linear gradient function 
-// so the image has a layered so the user can still read the words on the hero. In otherwords the rgba function since this would do the job.s
+// so the image has a layered so the user can still read the words on the hero. In otherwords the rgba function since this would do the job.
+
+.hero-title {
+  text-align: center;
+  font-size: 2rem;
+}
+
+@media(min-width: 1024px) {
+  .hero-title {
+    font-size: 2.5rem;
+  }
+}
+
+.shop-now-btn {
+  text-align: center;
+}
