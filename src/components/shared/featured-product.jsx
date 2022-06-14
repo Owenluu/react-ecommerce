@@ -2,12 +2,12 @@ import React from "react";
 import './featured-product.styles.scss';
 
 const FeaturedProduct=(product) => {
-  const {title, imageURL, price} = product;
+  const {title, imageUrl, price} = product;
 
   return (
     <dive className='featured-product'>
       <div className='featured-image'>
-        <img src={imageURL} alt='product'/>
+        <img src={imageUrl} alt='product'/>
       </div>
       <div className='name-price'>
         <h3>{title}</h3>
