@@ -5,7 +5,7 @@ const FeaturedProduct=(product) => {
   const {title, imageUrl, price} = product;
 
   return (
-    <dive className='featured-product'>
+    <div className='featured-product'>
       <div className='featured-image'>
         <img src={imageUrl} alt='product'/>
       </div>
@@ -14,7 +14,7 @@ const FeaturedProduct=(product) => {
         <p>${price}</p>
         <button className='button is-black nomad-btn'>ADD TO CART</button>
       </div>
-    </dive>
+    </div>
   );
 }
 
