@@ -8,7 +8,6 @@ const FeaturedProduct=(product) => {
     <dive className='featured-product'>
       <div className='featured-image'>
         <img src={imageURL} alt='product'/>
-
       </div>
       <div className='name-price'>
         <h3>{title}</h3>
