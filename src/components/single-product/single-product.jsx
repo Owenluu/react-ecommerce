@@ -18,7 +18,7 @@ const SingleProduct = ({ match, history: { push } }) => {
     
     setProduct(product)
   },[id, product, push, products]);
-  
+
   // if there is no product atm we will use the check above and when it finds a product it will show the product
 
   if (!product) { return null }
@@ -32,7 +32,7 @@ const SingleProduct = ({ match, history: { push } }) => {
         <div className='product-details'>
           <div className='name-price'>
             <h3>{title}</h3>
-            <p>{price}</p>
+            <p>${price}</p>
           </div>
           <div className='add-to-cart-btns'>
             <button className='button is-white nomad-btn' id='btn-white-outline'>
