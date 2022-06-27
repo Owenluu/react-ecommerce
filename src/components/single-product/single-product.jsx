@@ -34,7 +34,7 @@ const SingleProduct = ({ match, history: { push } }) => {
         <div className='product-details'>
           <div className='name-price'>
             <h3>{title}</h3>
-            <p>{price}</p>
+            <p>${price}</p>
           </div>
           <div className='add-to-cart-btns'>
             {
