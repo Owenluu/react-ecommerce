@@ -7,13 +7,13 @@ const Hero = () => {
       <div className="hero-body">
         <div className="container">
           <h1 className="hero-title">
-            Bags Reimagined For Modern Life.
+            Bags reimagined for modern life.
           </h1>
-          <h2 className="shop-now-btn">
+          <div className='shop-now-btn'>
             <button className='button is-black' id='shop-now'>
-            SHOP NOW
+              SHOP NOW
             </button>
-          </h2>
+          </div>
         </div>
       </div>
     </section>

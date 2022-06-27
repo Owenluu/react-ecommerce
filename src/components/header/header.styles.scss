@@ -1,10 +1,10 @@
 .nav-menu {
   display: flex;
   padding: 1rem;
-  
+
   a {
-    text-decoration-color: none; 
-    &:focus, &:hover, &:visted {
+    text-decoration: none;
+    &:focus, &:hover, &:visited {
       color: black;
     }
   }
@@ -23,4 +23,4 @@
       margin: 0 1rem;
     }
   }
-}
+} 

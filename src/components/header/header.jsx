@@ -10,20 +10,20 @@ const Header = () => {
         <Link to='/'>NOMAD</Link>
       </div>
       <ul>
-        <li> 
+        <li>
           <Link to='/'>
-          Home
-        </Link>
+            Home
+          </Link>
         </li>
-        <li> 
+        <li>
           <Link to='/shop'>
-          Shop
-        </Link>
-        </li>
+            Shop
+          </Link>
+        </li> 
       </ul>
-      <CartIcon/>
+      <CartIcon />
     </nav>
   );
 }
 
-export default Header;
+export default Header; 

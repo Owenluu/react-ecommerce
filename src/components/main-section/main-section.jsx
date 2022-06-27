@@ -11,14 +11,14 @@ const MainSection = ({ history }) => {
           <img src={studioBag} alt='studio bag'/>
         </div>
         <div className='ms-m-description'>
-          <h2>Designed for fasion. Crafted for sport.</h2>
+          <h2>Designed for fashion. Crafted for sport.</h2>
           <p>
-            We make products that effortlessly transaction from day to night.
-            From the board room to the fitness studio, and everywhere in between,
+          We make products that effortlessly transition from day to night. 
+            From the board room to the fitness studio, and everywhere in between, 
             each Nomads piece is thoughtfully created to be the perfect balance of 
             form and function.
           </p>
-          <button className='button is-black' id='shop-now' onClick={()=>history.push('/product/1')}>
+          <button className='button is-black' id='shop-now' onClick={()=> history.push('/product/1')}>
             STUDIO BAG
           </button>
         </div>

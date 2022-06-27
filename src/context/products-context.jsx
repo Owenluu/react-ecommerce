@@ -15,7 +15,4 @@ const ProductsContextProvider = ({ children }) => {
   );
 }
 
-export default ProductsContextProvider;
-
-// whats going on above is basically -> importing the shop data from index.js -> created a constant called 'productcontextprovider' -> initialized the shop data and -> provide the
-// products as a value -> and return the children.
+export default ProductsContextProvider; 

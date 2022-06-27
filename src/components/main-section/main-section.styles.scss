@@ -12,13 +12,13 @@
       line-height: 1.5;
     }
   }
-    //for mobile ^ 
+
   @media(min-width: 1024px) {
     .main-section-middle {
-      display: flex; 
+      display: flex;
       justify-content: space-between;
 
-      .ms-image{
+      .ms-image {
         max-width: 545px;
         flex: 1 0 545px;
       }
@@ -31,5 +31,4 @@
       }
     }
   }
-
 }
