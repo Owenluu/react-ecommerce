@@ -10,9 +10,11 @@ const Hero = () => {
             Bags reimagined for modern life.
           </h1>
           <div className='shop-now-btn'>
+            <a href='/shop'>
             <button className='button is-black' id='shop-now'>
               SHOP NOW
             </button>
+            </a>
           </div>
         </div>
       </div>
